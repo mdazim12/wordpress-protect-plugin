@@ -1,15 +1,16 @@
 <?php
 /**
- * Plugin Name: Site-Wide Password Protection PRO
+ * Plugin Name: Site-Wide Password Protection
  * Description: Protect the entire site with a single password using a modern UI. Includes admin settings and security features.
  * Version: 2.2.0 // Cleaned for production
  * Author: Azim Uddin
  * Text Domain: swppro
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Copyright 2024 Azim Uddin (azimuddin807@gmail.com)
  */
 
-// IMPORTANT: THIS MUST BE THE VERY FIRST LINE. NO WHITESPACE OR NEWLINES ABOVE.
-// Start output buffering as early as possible to catch any accidental output before headers.
-// This is critical for preventing "Headers already sent" errors for redirects.
+
 if (!ob_get_level()) {
     ob_start();
 }
